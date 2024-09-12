@@ -72,20 +72,7 @@ public class CIA103_10 {
 		}
 		System.out.println("總共有" + count5 + "個");
 		System.out.println("--------------------------------------------");
-		System.out.println("隨機印6個:");
-		
-		int r3 = (int)(Math.random()*count5);
-		for (int i33=1;i33<=6;i33++) {
-			while(r3!=0) {
-				if(box3[r3]!=0) {
-				System.out.print(box3[r3]+" ");
-				r3 = (int)(Math.random()*count5);
-				break;
-				}else {
-					r3 = (int)(Math.random()*count5);
-				}
-			}
-		}
+		System.out.println("");
 		
 	}
 }
