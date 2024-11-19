@@ -14,7 +14,6 @@ public class Q1 extends Thread {
 			System.out.println(name + "吃第" + counts + "碗飯");
 			try {
 				s = (int) (Math.random() * 2501 + 500);
-				System.out.println(s);
 				Thread.sleep(s); // 暫停
 			} catch (Exception e) {
 			}
